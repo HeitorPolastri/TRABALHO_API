@@ -27,7 +27,7 @@ export class PostBusiness {
     return post;
   };
 
-  // EXERCÍCIO 3 
+  //  EXERCÍCIO 3 
   createPost = (title: string, content: string, authorId: number): Post => {
     if (!title || title.length < 3) {
     throw new Error("Título: Mínimo 3 caracteres");

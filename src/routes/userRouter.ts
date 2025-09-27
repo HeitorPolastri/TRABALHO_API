@@ -8,7 +8,7 @@ const userController = new UserController();
 
 userRouter.get("/", userController.getAllUsers);
 
-// EXERCÍCIO 2 
+//  EXERCÍCIO 2 
 userRouter.get("/age-range", userController.getUsersByAgeRange);
 
 // EXERCÍCIO 1 

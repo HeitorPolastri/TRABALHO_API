@@ -1,7 +1,7 @@
 import { users, User, Post } from "../bd";
 
 export class UserData {
-  // Busca todos os usuários
+  //  Busca todos os usuários
   getAllUsers = (): User[] => {
     return users;
   };

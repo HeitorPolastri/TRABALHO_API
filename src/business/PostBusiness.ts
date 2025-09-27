@@ -19,7 +19,6 @@ export class PostBusiness {
       
       const user = userId ? this.userData.getUserById(userId) : undefined;
 
-      // Permite acesso se for o autor ou um administrador
       if (user?.role !== "admin" && post.authorId !== userId) {
       throw new Error("Não autorizado. Este post não está publicado.");
       }

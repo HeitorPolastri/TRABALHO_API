@@ -19,8 +19,8 @@ export class UserBusiness {
   };
 
   getUsersByAgeRange = (minStr: string | string[] | undefined, maxStr: string | string[] | undefined): User[] => {
-    const min = parseInt(String(minStr));
-    const max = parseInt(String(maxStr));
+     const min = parseInt(String(minStr));
+     const max = parseInt(String(maxStr));
 
     if (isNaN(min) || isNaN(max)) {
     throw new Error("Inválido. Use números.");

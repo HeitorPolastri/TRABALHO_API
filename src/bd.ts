@@ -33,7 +33,7 @@ export const users: User[] = [
 ];
 
 export let posts: Post[] = [
-    { id: 1, title: "Primeiro Post", content: "Conteúdo do primeiro post...", authorId: 2, createdAt: new Date("2023-01-01"), published: true },
+    { id: 1, title: "Primeiro Post", content: "Conteúdo do Primeiro post...", authorId: 2, createdAt: new Date("2023-01-01"), published: true },
     { id: 2, title: "Artigo do Admin", content: "Admin Artigo", authorId: 1, createdAt: new Date("2023-02-15"), published: true },
     { id: 3, title: "Rascunho", content: "aaaaaa rascunho Heitor.", authorId: 3, createdAt: new Date("2023-03-20"), published: false },
 ];
